@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
 
-/*const API_KEY = 'e7ccd00c';*/
-
 const API_KEY = process.env.REACT_APP_API_KEY
 /*console.log(process.env.REACT_APP_API_KEY);*/
 
