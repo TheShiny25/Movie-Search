@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import {ButtomBackToHome} from '../components/ButtonBackToHome'
 
-const API_KEY = 'e7ccd00c';
+const API_KEY = process.env.REACT_APP_API_KEY
 export class Detail extends Component{
 
     static propTypes ={
